@@ -21,17 +21,17 @@ repo-name/ │── data/ # Raw and processed FAERS data │── notebooks/ #
 
 ## 🛠 Installation & Setup
 ### **1. Clone the Repository**
-```bash
-git clone https://github.com/MYikuno/ORLISTAT-Adverse-Events.git
-cd ORLISTAT-Adverse-Events```
+ bash
+ git clone https://github.com/MYikuno/ORLISTAT-Adverse-Events.git
+ cd ORLISTAT-Adverse-Events```
 
 ### **2. Install Dependencies**
-```bash
-pip install -r requirements.txt``
+ bash
+ pip install -r requirements.txt``
 ### **3. Run the Analysis
-```bash
-python src/data_cleaning.py
-python src/trend_analysis.py```
+ bash
+ python src/data_cleaning.py
+ python src/trend_analysis.py```
 
 ## 📈 Expected Results
 - **Time-series plots** showing how adverse events vary over the years.
