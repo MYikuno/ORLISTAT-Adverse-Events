@@ -9,8 +9,7 @@ This project analyzes the adverse events associated with **Orlistat**, a weight 
 - **Visualize** the results using interactive charts and reports.
 
 ## 📂 Project Structure
-
-
+repo-name/ │── data/ # Raw and processed FAERS data │── notebooks/ # Jupyter notebooks for EDA and modeling │── src/ # Scripts for data processing and analysis │ ├── data_cleaning.py │ ├── trend_analysis.py │── results/ # Output visualizations and reports │── requirements.txt # Dependencies │── README.md # Project documentation │── .gitignore # Ignore unnecessary files │── LICENSE # License information
 
 ## 📊 Dataset: FAERS
 - **Source:** [FDA Adverse Event Reporting System (FAERS)](https://www.fda.gov/drugs/questions-and-answers-fda-adverse-event-reporting-system-faers)
@@ -24,16 +23,15 @@ This project analyzes the adverse events associated with **Orlistat**, a weight 
 ### **1. Clone the Repository**
 ```bash
 git clone https://github.com/MYikuno/ORLISTAT-Adverse-Events.git
-cd ORLISTAT-Adverse-Events
+cd ORLISTAT-Adverse-Events```
 
 ### **2. Install Dependencies**
 ```bash
-pip install -r requirements.txt
-
+pip install -r requirements.txt``
 ### **3. Run the Analysis
 ```bash
 python src/data_cleaning.py
-python src/trend_analysis.py
+python src/trend_analysis.py```
 
 ## 📈 Expected Results
 - **Time-series plots** showing how adverse events vary over the years.
