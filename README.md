@@ -1,4 +1,4 @@
-# Adverse Events Identification and Trend Analysis of Weight Loss Drug (Orlistat and Relaglutide)
+# Adverse Events Identification and Trend Analysis of Weight Loss Drugs (Orlistat and Relaglutide)
 
 This project analyzes the adverse events associated with **Orlistat** and **Relaglutide**, weight loss drugs, using the **FDA Adverse Event Reporting System (FAERS) dataset**. The goal is to identify trends in reported adverse events over the years and gain insights into potential safety concerns.
 
