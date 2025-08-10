@@ -1,9 +1,9 @@
-# Adverse Events Identification and Trend Analysis of Weight Loss Drug (Orlistat)
+# Adverse Events Identification and Trend Analysis of Weight Loss Drug (Orlistat and Relaglutide)
 
-This project analyzes the adverse events associated with **Orlistat**, a weight loss drug, using the **FDA Adverse Event Reporting System (FAERS) dataset**. The goal is to identify trends in reported adverse events over the years and gain insights into potential safety concerns.
+This project analyzes the adverse events associated with **Orlistat** and **Relaglutide**, weight loss drugs, using the **FDA Adverse Event Reporting System (FAERS) dataset**. The goal is to identify trends in reported adverse events over the years and gain insights into potential safety concerns.
 
 ## 📌 Project Objectives
-- **Extract and preprocess** FAERS data for Orlistat-related adverse events.
+- **Extract and preprocess** FAERS data for Orlistat and Relaglutide related adverse events.
 - **Identify key adverse event patterns** using data analysis techniques.
 - **Perform trend analysis** to examine variations over time.
 - **Visualize** the results using interactive charts and reports.
@@ -16,13 +16,13 @@ repo-name/ │── data/ # Raw and processed FAERS data │── notebooks/ #
 - **Data Format:** Quarterly reports containing adverse event records.
 - **Preprocessing Steps:**
   - Data cleaning and transformation.
-  - Filtering reports related to **Orlistat**.
+  - Filtering reports related to **Orlistat and Relaglutide**.
   - Standardizing event descriptions for trend analysis.
 
 ## 🛠 Installation & Setup
 ### **1. Clone the Repository**
     bash 
-    git clone https://github.com/MYikuno/ORLISTAT-Adverse-Events.git
+    git clone https://github.com/MYikuno/Orlistat-Relaglutide-Adverse-Events.git
     cd ORLISTAT-Adverse-Events
 
 ### **2. Install Dependencies**
@@ -35,7 +35,7 @@ repo-name/ │── data/ # Raw and processed FAERS data │── notebooks/ #
 
 ## 📈 Expected Results
 - **Time-series plots** showing how adverse events vary over the years.
-- **Top reported adverse events** for Orlistat.
+- **Top reported adverse events** for Orlistat and Relaglutide.
 - **Correlation analysis** between age, gender, and event frequency.
 
 ## 📝 License
