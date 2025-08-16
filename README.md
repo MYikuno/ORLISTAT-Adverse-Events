@@ -9,7 +9,7 @@ This project analyzes the adverse events associated with **Orlistat** and **Rela
 - **Visualize** the results using interactive charts and reports.
 
 ## 📂 Project Structure
-Weight-Loss-Drugs-Adverse-Events/ │── data/ # Raw and processed FAERS data │── notebooks/ # Jupyter notebooks for EDA and modeling ├── data cleaning and preprocessing.ipynb │ ├── adverse events EDA.ipynb ├── data preparation.ipynb ├── adverse events clustering.ipynb │── src/ # Python script for AI chatbot │── results/ # Output visualizations and reports │── requirements.txt # Dependencies │── README.md # Project documentation │── .gitignore # Ignore unnecessary files │── LICENSE # License information
+Weight-Loss-Drugs-Adverse-Events/ │── data/ # Raw and processed FAERS data │── notebooks/ # Jupyter notebooks for EDA and modeling ├── data cleaning and preprocessing.ipynb │ ├── adverse events EDA.ipynb ├── data preparation.ipynb ├── clustering_reactions.ipynb │── src/ # Python script for AI chatbot │── results/ # Output visualizations and reports │── requirements.txt # Dependencies │── README.md # Project documentation │── .gitignore # Ignore unnecessary files │── LICENSE # License information
 
 ## 📊 Dataset: FAERS
 - **Source:** [FDA Adverse Event Reporting System (FAERS)](https://www.fda.gov/drugs/questions-and-answers-fda-adverse-event-reporting-system-faers)
